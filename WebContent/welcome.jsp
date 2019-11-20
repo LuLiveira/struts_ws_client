@@ -27,6 +27,12 @@
 	.input-background {
 		color: #999;
 	}
+	ul {
+		list-style: none;
+	}
+	.errorMessage {
+		color:red;
+	}
 </style>
 </head>
 <body>
