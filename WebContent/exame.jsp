@@ -11,9 +11,17 @@
 <style>
 .container {
 	text-align: center;
-	background: #999;
+	background: #C8C8C8;
+	margin-top: 40px;
+	padding-bottom: 10px;
 }
 </style>
+
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+	integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+	crossorigin="anonymous">
+
 </head>
 <body>
 	<div class="container">
@@ -41,10 +49,8 @@
 		<br /> <br />
 
 		<s:text name="label.descricao" />
-		<br /> <br />
-		
-		<a href="welcome.jsp">
-			<button style="color: red; border: 1px solid #000" type="button">Voltar</button>
+		<br /> <br /> <a href="welcome.jsp">
+			<button class="btn btn-primary" type="button">Voltar</button>
 		</a>
 	</div>
 
